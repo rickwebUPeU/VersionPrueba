@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Académico UPeU</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            color: white;
+            /* Color del texto en secciones */
+        }
+
+        #inicio {
+            background-color: #3498db;
+            /* Azul */
+        }
+
+        #bibliografia {
+            background-color: #e67e22;
+            /* Naranja */
+        }
+
+        #habilidades {
+            background-color: #2ecc71;
+            /* Verde */
+        }
+
+        #proyectos {
+            background-color: #9b59b6;
+            /* Púrpura */
+        }
+
+        #contacto {
+            background-color: #e74c3c;
+            /* Rojo */
+        }
+
+        h2 {
+            color: white;
+            /* Color del título en secciones */
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos específicos para listas */
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Estilo para enlaces de contacto */
+        a {
+            color: #ffffff;
+            /* Color de los enlaces */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo.jpg" alt="Logo UPeU antiguo" style="width: 200px; height: auto;">
+        <h1>Rick Armando Ccapa Luque</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#correos">Correos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a Mi Página Personal</h2>
+            <p>¡Hola! Soy [Tu Nombre] y aquí puedes conocer más sobre mí.</p>
+        </section>
+
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <p>[Aquí puedes escribir una breve descripción sobre tu trayectoria académica y profesional]</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML y CSS</li>
+                <li>JavaScript</li>
+                <li>Desarrollo Web</li>
+                <li>Diseño Gráfico</li>
+                <li>Comunicación Efectiva</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><strong>Proyecto 1:</strong> Descripción breve del proyecto 1.</li>
+                <li><strong>Proyecto 2:</strong> Descripción breve del proyecto 2.</li>
+                <li><strong>Proyecto 3:</strong> Descripción breve del proyecto 3.</li>
+            </ul>
+
+            <ul>
+                <li>
+                    <strong>Proyecto 1:</strong> Descripción breve del proyecto 1.
+                    <video width="520" height="240" controls>
+                        <source src="ruta/del/video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </li>
+                <li>
+                    <strong>Proyecto 2:</strong> Descripción breve del proyecto 2.
+                    <video width="520" height="240" controls>
+                        <source src="ruta/del/otro-video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/am_g88t-OlA"
+                        title="Yo iré - Canto Oficial del Instituto Misionero" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+            </ul>
+
+
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo a: <a
+                    href="mailto:tucorreo@example.com">tucorreo@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Personal</p>
+    </footer>
+</body>
+
+</html>
